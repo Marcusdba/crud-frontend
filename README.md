@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<h1 align="center">🌐 CRUD de Usuários - Frontend</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="banner.png" alt="Banner do CRUD de Usuários" width="100%" />
+</p>
 
-## Available Scripts
+<p align="center">
+  Frontend desenvolvido em <strong>React</strong>, consumindo a API do projeto <strong>CRUD de Usuários</strong> 
+  hospedado no <strong>Render</strong>.  
+  O projeto inclui <strong>Bootstrap</strong> para estilização, <strong>React Toastify</strong> para notificações 
+  e suporte a <strong>Dark Mode persistente</strong>.
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Deploy
+🔗 **Acesse aqui:** [CRUD de Usuários - Frontend](https://SEU-LINK-VERCEL.vercel.app)  
+*(Substitua pelo link gerado no Vercel)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- [React](https://react.dev/) (Frontend)
+- [Bootstrap](https://getbootstrap.com/) (Estilização responsiva)
+- [React Toastify](https://fkhadra.github.io/react-toastify/introduction) (Notificações)
+- [Axios](https://axios-http.com/) (Consumo de API)
+- [LocalStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage) (Persistência do Dark Mode)
+- [Render](https://render.com/) (Backend hospedado)
+- [Vercel](https://vercel.com/) (Frontend hospedado)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Como Rodar Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# 1. Clone este repositório
+git clone https://github.com/Marcusdba/crud-frontend.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 2. Entre na pasta
+cd crud-frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. Instale as dependências
+npm install
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4. Inicie o servidor local
+npm start
