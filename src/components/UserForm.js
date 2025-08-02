@@ -25,13 +25,15 @@ export default function UserForm({ selectedUser, onSave }) {
         await api.post("/usuarios", { nome, email, idade });
         toast.success("Usuário criado com sucesso!");
       }
-      onSave();
+
+      // Limpa o formulário e recarrega a lista
       setNome("");
       setEmail("");
       setIdade("");
+      onSave();
     } catch (error) {
       toast.error("Erro ao salvar usuário!");
-      console.error(error);
+      console.error("Erro ao salvar usuário:", error);
     }
   };
 
