@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import UserList from "./components/UserList";
 import UserForm from "./components/UserForm";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./index.css";
 
 function App() {
@@ -14,7 +16,6 @@ function App() {
     window.location.reload();
   };
 
-  // Alternar dark mode e salvar no localStorage
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => {
       const newMode = !prevMode;
@@ -33,7 +34,6 @@ function App() {
 
   return (
     <div className="container py-4">
-      {/* Ícone fixo para alternar tema */}
       <button className="theme-toggle" onClick={toggleDarkMode}>
         {darkMode ? "☀️" : "🌙"}
       </button>
@@ -41,6 +41,9 @@ function App() {
       <h1 className="text-center mb-4">CRUD de Usuários - Frontend</h1>
       <UserForm selectedUser={selectedUser} onSave={handleSave} />
       <UserList onEdit={setSelectedUser} />
+
+      {/* Container obrigatório do react-toastify */}
+      <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
     </div>
   );
 }
