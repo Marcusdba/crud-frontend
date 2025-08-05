@@ -15,7 +15,7 @@
 
 ## 🚀 Deploy
 🔗 **Acesse aqui:** [CRUD de Usuários - Frontend](https://SEU-LINK-VERCEL.vercel.app)  
-*(Substitua pelo link gerado no Vercel)*
+
 
 ---
 
